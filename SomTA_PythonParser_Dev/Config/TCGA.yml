@@ -1,0 +1,32 @@
+Log:
+  log_path: C:/Users/IBM_ADMIN/PycharmProjects/MyProject_Shou/SomTA_Logs/
+  Log_Schema: Resources/Schema/Log_Schema.json
+SQL:
+  sql_path: Resources/SQL/
+Connection:
+  ip: 169.38.96.99
+  port: 1521
+  SID: NTRPT
+Producer:
+  bootstrap_servers: "virtualserver02.Scott-Neil-s-Account.cloud:9092,virtualserver02.Scott-Neil-s-Account.cloud:9092,virtualserver02.Scott-Neil-s-Account.cloud:9092"
+  topic: demo_fund_event
+  Suspense_topic: demo_Sus_event
+  Error_topic: demo_Err_event
+Consumer:
+  bootstrap_servers: "virtualserver02.Scott-Neil-s-Account.cloud:9092,virtualserver02.Scott-Neil-s-Account.cloud:9092,virtualserver02.Scott-Neil-s-Account.cloud:9092"
+  topic: finaltopic1
+  group_id: FinalTesting_group
+Audit:
+  Aud_Tab: T_DS_AUDIT_TAB
+  Exclu_Tab: T_EVENT_EXCLUSION
+  Processing_Unit: PreProcessor
+Exception:
+  Exception_Tab: T_EVENT_EXCEPTION
+  Exception_Path: C:/NorthernTrust/output/Error/
+  Exception_Schema: Resources/Schema/ErrorException_Schema.json
+  Exception_Topic: demo_Exception_event
+SSL:
+  SSL_Authorization: N
+  ssl_cafile: C:/users/sb726/caroot.pem
+  ssl_certfile: C:/users/sb726/cert.pem
+  ssl_keyfile: C:/users/sb726/key1.pem

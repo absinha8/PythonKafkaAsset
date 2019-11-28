@@ -1,0 +1,19 @@
+{
+	"eventId": null,
+	"eventType": null,
+	"createdAt": null,
+	"lastModified": null,
+	"domainName": "Fund",
+	"payload": {
+		"domainName": "Fund",
+		"eventType": null,
+		"eventClass": null,
+		"sourceEventId": null,
+		"sourceEntityId": null,
+		"sourcePublisherId": null
+	},
+	"errorList": [{
+		"errorCode": "",
+		"errorDescription": ""
+	}]
+}

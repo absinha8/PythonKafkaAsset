@@ -1,0 +1,1 @@
+from LogObject import LogObject

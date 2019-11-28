@@ -1,0 +1,21 @@
+{
+	"message": null,
+	"timestamp": null,
+	"sequence": null,
+	"application": null,
+	"environment": null,
+	"host": null,
+	"UBERFundId": null,
+	"FundIdentifierText": null,
+	"Identity": null,
+	"caller": {
+		"class": null,
+		"method": null,
+		"file": null,
+		"line": null
+	},
+	"level": null,
+	"logger": null,
+	"thread": null
+}
+
